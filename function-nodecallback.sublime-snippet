@@ -1,7 +1,12 @@
 <snippet>
 	<content><![CDATA[
-function(err, data}) {
-	${1}
+function(err, ${1:data}) {
+	if(err){
+		${2:callback(err);}
+	}
+	else{
+		${3:callback(null, data);}
+	}
 }
 ]]></content>
 	<tabTrigger>fcb</tabTrigger>
