@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+function(err, data}) {
+	${1}
+}
+]]></content>
+	<tabTrigger>fcb</tabTrigger>
+	<scope>source.js</scope>
+	<description>call function in nodejs</description>
+</snippet>
