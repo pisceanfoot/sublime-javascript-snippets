@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+var validateResult = validate(processInfo, ['${1:userId}']);
+if (validateResult != true){
+    return serviceMessage(true, validateResult);
+}
+]]></content>
+    <tabTrigger>validate</tabTrigger>
+    <scope>source.js</scope>
+    <description>validate in nodejs</description>
+</snippet>

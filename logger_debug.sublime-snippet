@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+logger.debug('${1:msg}')
+]]></content>
+    <tabTrigger>debug</tabTrigger>
+    <scope>source.js</scope>
+    <description>logger.debug in nodejs</description>
+</snippet>

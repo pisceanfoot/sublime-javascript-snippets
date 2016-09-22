@@ -2,10 +2,10 @@
 	<content><![CDATA[
 function(err, ${1:data}) {
 	if(err){
-		${2:callback(err);}
+		callback(${2:err});
 	}
 	else{
-		${3:callback(null, data);}
+		callback(null, ${3:data});
 	}
 }
 ]]></content>

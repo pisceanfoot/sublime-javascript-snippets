@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+var async = require('async');
+var okay = require('okay');
+var logger = require('greenShared').logger('fendaTopicService');
+var greenSharedUtil = require('greenShared').util;
+var serviceclient = require('serviceclient');
+var webLib = require('web-lib');
+var serviceMessage = webLib.serviceMessage;
+var validate = webLib.validate;
+var errorCode = webLib.errorCode;
+var restHandler = webLib.restHandler;
+
+var message = require('../message');
+var constants = require('../constants');
+
+]]></content>
+    <tabTrigger>servicetop</tabTrigger>
+    <scope>source.js</scope>
+    <description>service top in nodejs</description>
+</snippet>

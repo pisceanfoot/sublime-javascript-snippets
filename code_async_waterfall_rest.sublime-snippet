@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+async.waterfall([
+    function (callback){
+        ${1:...}
+    }
+], function(err, data) {
+    restHandler(err, data, callback);
+});
+]]></content>
+    <tabTrigger>waterfallrest</tabTrigger>
+    <scope>source.js</scope>
+    <description>waterfall rest in nodejs</description>
+</snippet>

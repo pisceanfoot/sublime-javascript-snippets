@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+var webLib = require('web-lib');
+var serviceMessage = webLib.serviceMessage;
+var exception = webLib.exception;
+
+var message = require('../../message');
+
+]]></content>
+    <tabTrigger>blltop</tabTrigger>
+    <scope>source.js</scope>
+    <description>bll top in nodejs</description>
+</snippet>

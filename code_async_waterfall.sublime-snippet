@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+async.waterfall([
+    function (callback){
+        ${1:...}
+    }
+], callback);
+]]></content>
+    <tabTrigger>waterfall</tabTrigger>
+    <scope>source.js</scope>
+    <description>waterfall in nodejs</description>
+</snippet>

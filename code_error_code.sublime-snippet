@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+callback(new errorCode(message.errorCode.${1:CODE}));
+]]></content>
+    <tabTrigger>ec</tabTrigger>
+    <scope>source.js</scope>
+    <description>error code in nodejs</description>
+</snippet>
