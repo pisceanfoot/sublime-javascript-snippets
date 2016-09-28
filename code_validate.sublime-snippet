@@ -2,7 +2,7 @@
     <content><![CDATA[
 var validateResult = validate(processInfo, ['${1:userId}']);
 if (validateResult != true){
-    return serviceMessage(true, validateResult);
+    return callback(validateResult);
 }
 ]]></content>
     <tabTrigger>validate</tabTrigger>
