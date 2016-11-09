@@ -2,7 +2,7 @@
     <content><![CDATA[
 var async = require('async');
 var okay = require('okay');
-var logger = require('greenShared').logger('fendaTopicService');
+var logger = require('greenShared').logger('${1:service name}');
 var greenSharedUtil = require('greenShared').util;
 var serviceclient = require('serviceclient');
 var webLib = require('web-lib');
