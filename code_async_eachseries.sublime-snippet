@@ -4,7 +4,7 @@ async.eachSeries(${1:...}, function(${2:...}, callback){
 	async.setImmediate(function(){
 		${3:...}
 	});
-});
+}, callback);
 ]]></content>
     <tabTrigger>eachseries</tabTrigger>
     <scope>source.js</scope>
