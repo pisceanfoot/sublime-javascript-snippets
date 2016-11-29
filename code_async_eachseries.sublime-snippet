@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+async.eachSeries(${1:...}, function(${2:...}, callback){
+	async.setImmediate(function(){
+		${3:...}
+	});
+});
+]]></content>
+    <tabTrigger>eachseries</tabTrigger>
+    <scope>source.js</scope>
+    <description>eachseries in nodejs</description>
+</snippet>
