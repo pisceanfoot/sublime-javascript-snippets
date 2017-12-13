@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-'use strict';
+console.info(${1:obj});
 ]]></content>
-	<tabTrigger>us</tabTrigger>
+	<tabTrigger>ci</tabTrigger>
 	<scope>source.js, source.jsx, source.ts</scope>
-	<description>use strict</description>
+	<description>console.info</description>
 </snippet>

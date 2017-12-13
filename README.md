@@ -24,6 +24,12 @@ console.dir(${1:obj});
 console.error(${1:obj});
 ```
 
+### [ci] console.info
+
+```javascript
+console.info(${1:obj});
+```
+
 ### [cl] console.log
 
 ```javascript
@@ -73,7 +79,7 @@ ${1:document}.createElement(${2:elem});
 ### [cdf] createDocumentFragment
 
 ```javascript
-${1:document}.createDocumentFragment(${2:elem});
+${1:document}.createDocumentFragment();
 ```
 
 ### [ca] classList.add
@@ -203,9 +209,9 @@ ${1:ClassName}.prototype.${2:methodName} = function(${3:arguments}) {
 ### [iife] immediately-invoked function expression
 
 ```javascript
-(function(window, document, undefined) {
+(function(${1:window}, ${2:document}) {
 	${1}
-})(window, document);
+})(${1:window}, ${2:document});
 ```
 
 ### [call] function call
@@ -226,6 +232,20 @@ ${1:methodName}.apply(${2:context}, [${3:arguments}])
 ${1:functionName}: function (${2:arguments}) {
 	${3}
 }
+```
+
+## JSON
+
+### [jp] JSON.parse
+
+```javascript
+JSON.parse(${1:obj});
+```
+
+### [js] JSON.stringify
+
+```javascript
+JSON.stringify(${1:obj});
 ```
 
 ## Timer

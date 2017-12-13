@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-'use strict';
+JSON.stringify(${1:obj});
 ]]></content>
-	<tabTrigger>us</tabTrigger>
+	<tabTrigger>js</tabTrigger>
 	<scope>source.js, source.jsx, source.ts</scope>
-	<description>use strict</description>
+	<description>JSON.stringify</description>
 </snippet>
