@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+async function ${1:create}(processInfo){
+    logger.debug('processInfo', processInfo)
+
+    var validateResult = validate(processInfo, ['${2}']);
+    if (validateResult != true){
+        return validateResult;
+    }
+}
+]]></content>
+    <tabTrigger>as</tabTrigger>
+    <scope>source.js, source.jsx, source.ts</scope>
+    <description>create aysnc function</description>
+</snippet>
