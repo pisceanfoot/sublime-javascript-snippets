@@ -9,7 +9,7 @@ async function ${1:create}(processInfo){
     }
 }
 ]]></content>
-    <tabTrigger>as</tabTrigger>
+    <tabTrigger>asf</tabTrigger>
     <scope>source.js, source.jsx, source.ts</scope>
     <description>create aysnc function</description>
 </snippet>
